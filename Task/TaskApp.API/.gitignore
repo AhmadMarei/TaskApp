@@ -1,0 +1,8 @@
+.vscode
+bin
+obj
+/dist
+/tmp
+/out-tsc
+
+/node_module

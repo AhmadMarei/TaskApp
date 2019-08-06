@@ -1,0 +1,23 @@
+.my-5,.my-5 {
+    margin-top: 6rem!important;
+}
+ .my-3,.my-3 {
+    margin-top: 2rem!important;
+}
+.fa-home:before {
+    font-size: 17rem;
+}
+
+@media only screen and (min-width: 1400px) {
+.row{
+  margin-left: 11rem !important;
+}
+}
+
+.alert{
+    width: 38rem;
+    margin: auto;
+}
+.row{
+  margin-top: 2rem !important;
+}
