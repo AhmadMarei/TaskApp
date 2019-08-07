@@ -1,3 +1,6 @@
+
+Hur började jag lösa den här uppgiften?
+
 När jag har tittat på den här uppgiften trodde jag att det är realtidsfall(real time task) så jag tror att jag behöver teknik i realtid och bestämde
  mig för att använda (SignalR-bibliotek med Asp.net-core) på serversidan (back-end) och till (Client side ) och  använda (Angular 8 med paketet aspnet/signalr).
 Jag tror att jag måste få data i realtid från källan(source) så jag bestämde mig för att använda postman (ett lämpligt verktyg)som ett alternativ till verklig datakälla:
@@ -24,8 +27,8 @@ Exempel på hur applikationen kan köras via:
 -För att starta Angular (Client): öppna (TaskApp-SPA) i terminal ---> (ng serve -o)
 -För att ändra rumsinformation öppna Postman ---> PUT / api / home / {id} där id (integer value (1,2,3,4,5...))betyder nummer av
  rum och det är unikt nummer .t.ex (http: // localhost: 5000 / api / home / 1)
-ange {"temperatur": 31, "fuktighet": 0,9
-    } i request-body (JSON (Application / json)).
+ange  t.ex {"temperatur": 31, "fuktighet": 0,9} i request-body (JSON (Application / json)).
 Obs! (nummer av rum är: 1-Vardagsrum 2-Kök 3-Sovrummet) Jag lägger till tre rum men du kan lägga till mer om du behöver om du använder (DB Browser för SQLite).
 
 Obs! Jag skriver alla kommentarer i koden på engelska 
+Obs! För att köra min client App du måste ha (nodejs v10.16.0 )

@@ -26,7 +26,6 @@ namespace TaskApp.API.Controllers
 			_mapper = mapper;
 			_repo = repo;
 		}
-		//  [AllowAnonymous]
 		
 		[HttpGet("{id}/data")]
 		public async Task<ActionResult> Get(string id)
@@ -40,7 +39,8 @@ namespace TaskApp.API.Controllers
 
 		}
 		
-		// PUT is only to update the information in room when we have new information and we do it by room id 
+		// PUT is only to update the information in room when we have new information and we do it by room id if you want test by
+		// Postman after un comment // CreateMap<Room, RoomForReturnDto>(); in Helpers-->AutoMapperProfiles
 		[HttpPut("{id}")]
 		public async Task<IActionResult> Put(int id, RoomForUpdateDto roomForUpdateDto)
 		{

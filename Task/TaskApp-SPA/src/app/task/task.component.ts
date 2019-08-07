@@ -27,7 +27,7 @@ export class TaskComponent implements OnInit {
     this.hubConnection.on('refresh', () => {
       this.getValue(this.id);
     });
-    const secondsCounter = interval(1000);
+    const secondsCounter = interval(3000);
     secondsCounter.subscribe(n =>
       this.hubConnection.invoke('refresh'));
 
